@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC582FA414C33DD90053152F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC582FA314C33DD90053152F /* UIKit.framework */; };
+		DC582FA614C33DD90053152F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC582FA514C33DD90053152F /* Foundation.framework */; };
+		DC582FA814C33DD90053152F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC582FA714C33DD90053152F /* CoreGraphics.framework */; };
+		DC582FAE14C33DD90053152F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC582FAC14C33DD90053152F /* InfoPlist.strings */; };
+		DC582FB014C33DD90053152F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC582FAF14C33DD90053152F /* main.m */; };
+		DC582FB414C33DD90053152F /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC582FB314C33DD90053152F /* JKAppDelegate.m */; };
+		DC582FB714C33DD90053152F /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC582FB614C33DD90053152F /* JKViewController.m */; };
+		DC582FBA14C33DD90053152F /* JKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC582FB814C33DD90053152F /* JKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC582F9F14C33DD90053152F /* LocationIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC582FA314C33DD90053152F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC582FA514C33DD90053152F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC582FA714C33DD90053152F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC582FAB14C33DD90053152F /* LocationIndicator-Info.plist */ = {isa = PBXFileReference; path = "LocationIndicator-Info.plist"; sourceTree = "<group>"; };
+		DC582FAD14C33DD90053152F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC582FAF14C33DD90053152F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC582FB114C33DD90053152F /* LocationIndicator-Prefix.pch */ = {isa = PBXFileReference; path = "LocationIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		DC582FB214C33DD90053152F /* JKAppDelegate.h */ = {isa = PBXFileReference; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		DC582FB314C33DD90053152F /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		DC582FB514C33DD90053152F /* JKViewController.h */ = {isa = PBXFileReference; path = JKViewController.h; sourceTree = "<group>"; };
+		DC582FB614C33DD90053152F /* JKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
+		DC582FB914C33DD90053152F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC582F9C14C33DD90053152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC582FA414C33DD90053152F /* UIKit.framework in Frameworks */,
+				DC582FA614C33DD90053152F /* Foundation.framework in Frameworks */,
+				DC582FA814C33DD90053152F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC582F9414C33DD90053152F = {
+			isa = PBXGroup;
+			children = (
+				DC582FA914C33DD90053152F /* LocationIndicator */,
+				DC582FA214C33DD90053152F /* Frameworks */,
+				DC582FA014C33DD90053152F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC582FA014C33DD90053152F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC582F9F14C33DD90053152F /* LocationIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC582FA214C33DD90053152F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC582FA314C33DD90053152F /* UIKit.framework */,
+				DC582FA514C33DD90053152F /* Foundation.framework */,
+				DC582FA714C33DD90053152F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC582FA914C33DD90053152F /* LocationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				DC582FB214C33DD90053152F /* JKAppDelegate.h */,
+				DC582FB314C33DD90053152F /* JKAppDelegate.m */,
+				DC582FB514C33DD90053152F /* JKViewController.h */,
+				DC582FB614C33DD90053152F /* JKViewController.m */,
+				DC582FB814C33DD90053152F /* JKViewController.xib */,
+				DC582FAA14C33DD90053152F /* Supporting Files */,
+			);
+			path = LocationIndicator;
+			sourceTree = "<group>";
+		};
+		DC582FAA14C33DD90053152F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC582FAB14C33DD90053152F /* LocationIndicator-Info.plist */,
+				DC582FAC14C33DD90053152F /* InfoPlist.strings */,
+				DC582FAF14C33DD90053152F /* main.m */,
+				DC582FB114C33DD90053152F /* LocationIndicator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC582F9E14C33DD90053152F /* LocationIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC582FBD14C33DD90053152F /* Build configuration list for PBXNativeTarget "LocationIndicator" */;
+			buildPhases = (
+				DC582F9B14C33DD90053152F /* Sources */,
+				DC582F9C14C33DD90053152F /* Frameworks */,
+				DC582F9D14C33DD90053152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationIndicator;
+			productName = LocationIndicator;
+			productReference = DC582F9F14C33DD90053152F /* LocationIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC582F9614C33DD90053152F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC582F9914C33DD90053152F /* Build configuration list for PBXProject "LocationIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC582F9414C33DD90053152F;
+			productRefGroup = DC582FA014C33DD90053152F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC582F9E14C33DD90053152F /* LocationIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC582F9D14C33DD90053152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC582FAE14C33DD90053152F /* InfoPlist.strings in Resources */,
+				DC582FBA14C33DD90053152F /* JKViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC582F9B14C33DD90053152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC582FB014C33DD90053152F /* main.m in Sources */,
+				DC582FB414C33DD90053152F /* JKAppDelegate.m in Sources */,
+				DC582FB714C33DD90053152F /* JKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC582FAC14C33DD90053152F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC582FAD14C33DD90053152F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC582FB814C33DD90053152F /* JKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC582FB914C33DD90053152F /* en */,
+			);
+			name = JKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC582FBB14C33DD90053152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC582FBC14C33DD90053152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC582FBE14C33DD90053152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationIndicator/LocationIndicator-Prefix.pch";
+				INFOPLIST_FILE = "LocationIndicator/LocationIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC582FBF14C33DD90053152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationIndicator/LocationIndicator-Prefix.pch";
+				INFOPLIST_FILE = "LocationIndicator/LocationIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC582F9914C33DD90053152F /* Build configuration list for PBXProject "LocationIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC582FBB14C33DD90053152F /* Debug */,
+				DC582FBC14C33DD90053152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC582FBD14C33DD90053152F /* Build configuration list for PBXNativeTarget "LocationIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC582FBE14C33DD90053152F /* Debug */,
+				DC582FBF14C33DD90053152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC582F9614C33DD90053152F /* Project object */;
+}

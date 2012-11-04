@@ -270,6 +270,7 @@
 		DC582FBE14C33DD90053152F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationIndicator/LocationIndicator-Prefix.pch";
 				INFOPLIST_FILE = "LocationIndicator/LocationIndicator-Info.plist";
@@ -281,6 +282,7 @@
 		DC582FBF14C33DD90053152F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationIndicator/LocationIndicator-Prefix.pch";
 				INFOPLIST_FILE = "LocationIndicator/LocationIndicator-Info.plist";

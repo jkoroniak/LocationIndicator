@@ -15,6 +15,13 @@
 		DC582FB414C33DD90053152F /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC582FB314C33DD90053152F /* JKAppDelegate.m */; };
 		DC582FB714C33DD90053152F /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC582FB614C33DD90053152F /* JKViewController.m */; };
 		DC582FBA14C33DD90053152F /* JKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC582FB814C33DD90053152F /* JKViewController.xib */; };
+		DC582FC214C352DD0053152F /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC582FC114C352DD0053152F /* ball@2x.png */; };
+		DC582FC414C352E40053152F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DC582FC314C352E40053152F /* ball.png */; };
+		DC582FC614C352EB0053152F /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC582FC514C352EB0053152F /* arrow@2x.png */; };
+		DC582FC814C352F10053152F /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC582FC714C352F10053152F /* arrow.png */; };
+		DC60EC6B14C61F7300D978E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC60EC6A14C61F7300D978E9 /* MapKit.framework */; };
+		DC60EC7B14C6449A00D978E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60EC7A14C6449A00D978E9 /* icon.png */; };
+		DC60EC7D14C6449F00D978E9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60EC7C14C6449F00D978E9 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,22 @@
 		DC582FA314C33DD90053152F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC582FA514C33DD90053152F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC582FA714C33DD90053152F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC582FAB14C33DD90053152F /* LocationIndicator-Info.plist */ = {isa = PBXFileReference; path = "LocationIndicator-Info.plist"; sourceTree = "<group>"; };
+		DC582FAB14C33DD90053152F /* LocationIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationIndicator-Info.plist"; sourceTree = "<group>"; };
 		DC582FAD14C33DD90053152F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC582FAF14C33DD90053152F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC582FB114C33DD90053152F /* LocationIndicator-Prefix.pch */ = {isa = PBXFileReference; path = "LocationIndicator-Prefix.pch"; sourceTree = "<group>"; };
-		DC582FB214C33DD90053152F /* JKAppDelegate.h */ = {isa = PBXFileReference; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		DC582FB114C33DD90053152F /* LocationIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		DC582FB214C33DD90053152F /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
 		DC582FB314C33DD90053152F /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
-		DC582FB514C33DD90053152F /* JKViewController.h */ = {isa = PBXFileReference; path = JKViewController.h; sourceTree = "<group>"; };
+		DC582FB514C33DD90053152F /* JKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
 		DC582FB614C33DD90053152F /* JKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
 		DC582FB914C33DD90053152F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JKViewController.xib; sourceTree = "<group>"; };
+		DC582FC114C352DD0053152F /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		DC582FC314C352E40053152F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		DC582FC514C352EB0053152F /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		DC582FC714C352F10053152F /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		DC60EC6A14C61F7300D978E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DC60EC7A14C6449A00D978E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DC60EC7C14C6449F00D978E9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC60EC6B14C61F7300D978E9 /* MapKit.framework in Frameworks */,
 				DC582FA414C33DD90053152F /* UIKit.framework in Frameworks */,
 				DC582FA614C33DD90053152F /* Foundation.framework in Frameworks */,
 				DC582FA814C33DD90053152F /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +65,8 @@
 		DC582F9414C33DD90053152F = {
 			isa = PBXGroup;
 			children = (
+				DC60EC7C14C6449F00D978E9 /* icon@2x.png */,
+				DC60EC7A14C6449A00D978E9 /* icon.png */,
 				DC582FA914C33DD90053152F /* LocationIndicator */,
 				DC582FA214C33DD90053152F /* Frameworks */,
 				DC582FA014C33DD90053152F /* Products */,
@@ -67,6 +84,7 @@
 		DC582FA214C33DD90053152F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC60EC6A14C61F7300D978E9 /* MapKit.framework */,
 				DC582FA314C33DD90053152F /* UIKit.framework */,
 				DC582FA514C33DD90053152F /* Foundation.framework */,
 				DC582FA714C33DD90053152F /* CoreGraphics.framework */,
@@ -77,6 +95,7 @@
 		DC582FA914C33DD90053152F /* LocationIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				DC60EC7514C641F600D978E9 /* Images */,
 				DC582FB214C33DD90053152F /* JKAppDelegate.h */,
 				DC582FB314C33DD90053152F /* JKAppDelegate.m */,
 				DC582FB514C33DD90053152F /* JKViewController.h */,
@@ -96,6 +115,17 @@
 				DC582FB114C33DD90053152F /* LocationIndicator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC60EC7514C641F600D978E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC582FC114C352DD0053152F /* ball@2x.png */,
+				DC582FC314C352E40053152F /* ball.png */,
+				DC582FC514C352EB0053152F /* arrow@2x.png */,
+				DC582FC714C352F10053152F /* arrow.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +154,7 @@
 		DC582F9614C33DD90053152F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = DC582F9914C33DD90053152F /* Build configuration list for PBXProject "LocationIndicator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -150,6 +180,12 @@
 			files = (
 				DC582FAE14C33DD90053152F /* InfoPlist.strings in Resources */,
 				DC582FBA14C33DD90053152F /* JKViewController.xib in Resources */,
+				DC582FC214C352DD0053152F /* ball@2x.png in Resources */,
+				DC582FC414C352E40053152F /* ball.png in Resources */,
+				DC582FC614C352EB0053152F /* arrow@2x.png in Resources */,
+				DC582FC814C352F10053152F /* arrow.png in Resources */,
+				DC60EC7B14C6449A00D978E9 /* icon.png in Resources */,
+				DC60EC7D14C6449F00D978E9 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +308,7 @@
 				DC582FBF14C33DD90053152F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
